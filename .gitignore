@@ -1,8 +1,0 @@
-# dependencies installed by npm
-/node_modules
-
-# build artefacts
-
-# vscode things
-/.vscode
-.history

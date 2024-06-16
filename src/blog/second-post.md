@@ -1,4 +1,0 @@
----
-title: second post
----
-content
