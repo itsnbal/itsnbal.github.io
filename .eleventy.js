@@ -1,7 +1,12 @@
 module.exports = function (eleventyConfig) {
-    // Copy the `css` directory to the output
-    eleventyConfig.addPassthroughCopy('css');
-  
-    // Watch the `css` directory for changes
-    eleventyConfig.addWatchTarget('css');
-  };
+
+    eleventyConfig.addPassthroughCopy("./src/css");
+    eleventyConfig.addWatchTarget("./src/css/");
+    
+    return {
+        dir: {
+            input: "src",
+            output: "dist",
+        },
+    };
+};
