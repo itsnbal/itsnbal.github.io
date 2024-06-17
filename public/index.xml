@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>itsnbal.xyz</title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on itsnbal.xyz</description>
+    <title>itsnbal</title>
+    <link>itsnbal.xyz/</link>
+    <description>Recent content on itsnbal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Jun 2024 23:58:08 -0300</lastBuildDate>
+    <atom:link href="itsnbal.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Post 3</title>
-      <link>//localhost:1313/posts/post-3/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>//localhost:1313/posts/post-3/</guid>
-      <description>Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris officia Lorem enim. Ipsum occaecat cillum ut tempor id sint aliqua incididunt nisi incididunt reprehenderit. Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. Aute ex ipsum id ut in est velit est laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum.</description>
+      <title>Trees by Something</title>
+      <link>itsnbal.xyz/trees-by-something/</link>
+      <pubDate>Sun, 16 Jun 2024 23:58:08 -0300</pubDate>
+      <guid>itsnbal.xyz/trees-by-something/</guid>
+      <description>I think that I shall never see A poem lovely as a tree.&#xA;A tree whose hungry mouth is prest Against the earth&amp;rsquo;s sweet flowing breast;&#xA;A tree that looks at God all day, And lifts her leafy arms to pray;&#xA;A tree that may in Summer wear A nest of robins in her hair;</description>
     </item>
     <item>
-      <title>Post 2</title>
-      <link>//localhost:1313/posts/post-2/</link>
-      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
-      <guid>//localhost:1313/posts/post-2/</guid>
-      <description>Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute. Mollit aliquip occaecat qui sunt velit ut cupidatat reprehenderit enim sunt laborum. Velit veniam in officia nulla adipisicing ut duis officia.&#xA;Exercitation voluptate irure in irure tempor mollit Lorem nostrud ad officia.</description>
+      <title>That It Something</title>
+      <link>itsnbal.xyz/that-it-something/</link>
+      <pubDate>Sun, 16 Jun 2024 23:57:25 -0300</pubDate>
+      <guid>itsnbal.xyz/that-it-something/</guid>
+      <description>That it will never come again Is what makes life so sweet. Believing what we don&amp;rsquo;t believe Does not exhilarate.&#xA;That if it be, it be at best An ablative estate &amp;ndash; This instigates an appetite Precisely opposite.</description>
     </item>
     <item>
-      <title>Post 1</title>
-      <link>//localhost:1313/posts/post-1/</link>
-      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
-      <guid>//localhost:1313/posts/post-1/</guid>
-      <description>Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&#xA;Occaecat nulla excepteur dolore excepteur duis eiusmod ullamco officia anim in voluptate ea occaecat officia. Cillum sint esse velit ea officia minim fugiat. Elit ea esse id aliquip pariatur cupidatat id duis minim incididunt ea ea.</description>
+      <title>If by Something</title>
+      <link>itsnbal.xyz/if-by-something/</link>
+      <pubDate>Sun, 16 Jun 2024 23:49:37 -0300</pubDate>
+      <guid>itsnbal.xyz/if-by-something/</guid>
+      <description>If you can keep your head when all about you Are losing theirs and blaming it on you, If you can trust yourself when all men doubt you, But make allowance for their doubting too; If you can wait and not be tired by waiting, Or being lied about, don&amp;rsquo;t deal in lies, Or being hated, don&amp;rsquo;t give way to hating, And yet don&amp;rsquo;t look too good, nor talk too wise:</description>
     </item>
   </channel>
 </rss>

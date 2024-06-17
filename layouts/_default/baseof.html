@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head.html" . }}
+<body>
+    {{ partial "nav.html" . }}
+    <div class="container">
+        <main id="main">
+            {{ block "main" . }}{{ end }} <!-- the dot is how you pass context around hugo -->
+        </main>
+    </div>
+    {{ partial "script.html" . }}
+</body>
+</html>
