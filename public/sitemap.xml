@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>itsnbal.xyz/blog/</loc>
+    <loc>//localhost:1313/blog/</loc>
     <lastmod>2024-06-16T23:58:08-03:00</lastmod>
   </url><url>
-    <loc>itsnbal.xyz/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2024-06-16T23:58:08-03:00</lastmod>
   </url><url>
-    <loc>itsnbal.xyz/tags/poetry/</loc>
+    <loc>//localhost:1313/tags/poetry/</loc>
     <lastmod>2024-06-16T23:58:08-03:00</lastmod>
   </url><url>
-    <loc>itsnbal.xyz/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2024-06-16T23:58:08-03:00</lastmod>
   </url><url>
-    <loc>itsnbal.xyz/tags/trees/</loc>
+    <loc>//localhost:1313/tags/trees/</loc>
     <lastmod>2024-06-16T23:58:08-03:00</lastmod>
   </url><url>
-    <loc>itsnbal.xyz/trees-by-something/</loc>
+    <loc>//localhost:1313/trees-by-something/</loc>
     <lastmod>2024-06-16T23:58:08-03:00</lastmod>
   </url><url>
-    <loc>itsnbal.xyz/that-it-something/</loc>
+    <loc>//localhost:1313/that-it-something/</loc>
     <lastmod>2024-06-16T23:57:25-03:00</lastmod>
   </url><url>
-    <loc>itsnbal.xyz/tags/time/</loc>
+    <loc>//localhost:1313/tags/time/</loc>
     <lastmod>2024-06-16T23:57:25-03:00</lastmod>
   </url><url>
-    <loc>itsnbal.xyz/if-by-something/</loc>
+    <loc>//localhost:1313/if-by-something/</loc>
     <lastmod>2024-06-16T23:49:37-03:00</lastmod>
   </url><url>
-    <loc>itsnbal.xyz/tags/life/</loc>
+    <loc>//localhost:1313/tags/life/</loc>
     <lastmod>2024-06-16T23:49:37-03:00</lastmod>
   </url>
 </urlset>

@@ -1,0 +1,205 @@
+/* general site styling */
+body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0 16px;
+    color: #101720;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+} 
+
+@keyframes cursor{
+    0%, 100%{border-color: transparent;}
+    50%{border-color: #000;}
+}  
+  @keyframes typing{
+    0%{ width: 0ch} /*Text is hidden*/
+    30%{ width: 9ch;} /*The enitre header will be typed out 1 character at a time*/
+    80%{ width: 9ch;} /*Text stays visible*/
+    90%{ width: 0ch;} /*Text is deleted*/
+    100%{ width: 0ch;} /*Text stays hidden*/
+}
+h1 {
+    color:#f57600;
+    margin: 0; 
+    text-decoration: wavy underline 2px #054fb9;
+    border-right: 3px solid #000;
+}
+h2 { 
+    margin: 0; 
+    color:#054fb9;
+    text-decoration: wavy underline 2px #f57600;
+}
+h3 {
+    color:#0461cf;
+}
+h4 {
+    color:#f57600;
+}
+
+
+/* nav bar styling */
+.nav {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-top: solid;
+    border-right: solid;
+    border-left: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #0461cf;
+    padding: 6px;
+}
+.nav-link {
+    text-decoration: wavy underline #f57600;
+    color:#054fb9;
+    font-weight: bold;
+}
+
+
+/* homepage styling */
+.homepage-introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: solid;
+    border-left: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #0461cf;
+    padding: 12px;
+}
+.homepage-introduction h1 { /* to be used only site title */
+    font-size: 5rem;
+    color:#f57600;
+    margin: 0; 
+    text-decoration: wavy underline 2px #054fb9;
+    border-right: 3px solid #000;
+    animation: cursor 1s infinite step-end, typing 15s infinite steps(9);
+    white-space: nowrap;
+    overflow: hidden;
+}
+.homepage-introduction p {
+    margin: 2px;
+}
+
+
+.homepage-about {
+    padding: 12px;
+    max-width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    gap: 16px;
+    border-right: solid;
+    border-left: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #0461cf;
+}
+.homepage-about-1 {
+    max-width: 50%;
+}
+.homepage-about-2 {
+    box-sizing: border-box;
+    width: 50%;
+    height: auto;
+    background-color: #101720;
+    color: #f5f5f5;
+}
+.homepage-about h2 {
+    padding: 0;
+    margin: 0;
+}
+
+
+.homepage-trio {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-right: solid;
+    border-left: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #0461cf;
+    gap: 16px;
+    padding: 12px;
+}
+.homepage-trio h3{
+    margin: 0;
+}
+.image-place-1 {
+    box-sizing: border-box;
+    margin: 8px;
+    width: 150px;
+    height: 150px;
+    background-color: #101720;
+    color: #f5f5f5;
+}
+.homepage-blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homepage-art {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homepage-writing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.homepage-break {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    border-right: solid;
+    border-left: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #0461cf;
+}
+
+.homepage-lists {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    border-right: solid;
+    border-left: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #0461cf;
+    padding: 12px;
+}
+
+/* footer */
+
+.footer {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-right: solid;
+    border-left: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #0461cf;
+    text-decoration: wavy underline #f57600;
+    color:#054fb9;
+    font-weight: bold;
+}

@@ -1,8 +1,71 @@
 {{ define "main" }}
 
-<div id="home-jumbotron" class="jumbotron text-center">
+  <div class="homepage-introduction">
     <h1>{{ .Site.Title }}</h1>
-    <p class="font-125">{{ .Site.Params.homeText | markdownify }}</p>
+    <p>{{ .Site.Params.homeText | markdownify }}</p>
+  </div>
+
+  <div class="homepage-about">
+    <div class="homepage-about-1">
+      <h2>I'M TITLE</h2>
+      <p class="homepage-about-3">Suspendisse nulla velit, finibus aliquet scelerisque ut, ornare sit amet odio. Cras mauris justo, pulvinar vitae ligula in, scelerisque molestie dolor. Donec aliquet nisl massa, eget tristique dui aliquet ac. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut non turpis nec neque molestie vulputate. Sed sit amet metus non arcu tempor ullamcorper.<a href="itsnbal.xyz" class="about-hello">hello! link</a></p>
+    </div>
+    <div class="homepage-about-2">
+      About link with background image
+    </div>
+  </div>
+
+  <div class="homepage-trio">
+    <div class="homepage-blog">
+      <h3>Blog</h3>
+      <div class="image-place-1">Image</div>
+      <p>Suspendisse nulla velit, finibus aliquet scelerisque ut, ornare sit amet odio. Cras mauris justo, pulvinar vitae ligula in, scelerisque molestie dolor. Donec aliquet nisl massa, eget tristique dui aliquet ac. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut non turpis nec neque molestie vulputate. Sed sit amet metus non arcu tempor ullamcorper.</p>
+    </div>
+    <div class="homepage-art">
+      <h3>Art</h3>
+      <p>Suspendisse nulla velit, finibus aliquet scelerisque ut, ornare sit amet odio. Cras mauris justo, pulvinar vitae ligula in, scelerisque molestie dolor. Donec aliquet nisl massa, eget tristique dui aliquet ac. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut non turpis nec neque molestie vulputate. Sed sit amet metus non arcu tempor ullamcorper.</p>
+      <div class="image-place-1">Image</div>
+    </div>
+    <div class="homepage-writing">
+      <h3>Writing</h3>
+      <div class="image-place-1">Image</div>
+      <p>Suspendisse nulla velit, finibus aliquet scelerisque ut, ornare sit amet odio. Cras mauris justo, pulvinar vitae ligula in, scelerisque molestie dolor. Donec aliquet nisl massa, eget tristique dui aliquet ac. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut non turpis nec neque molestie vulputate. Sed sit amet metus non arcu tempor ullamcorper.</p>
+    </div>
+  </div>
+  
+  <div class="homepage-break">
+    <h4>library</h4>
+    <h4>blogroll</h4>
+    <h4>bookmarks</h4>
+  </div>
+
+  <div class="homepage-lists">
+    <div class="homepage-recent">
+      <h3>Recent Posts</h3>
+      <ol>
+        <li> Mauris dignissim quam id t</li>
+        <li> Mauris dignissim quam id t</li>
+        <li> Mauris dignissim quam id t</li>
+        <li> Mauris dignissim quam id t</li>
+      </ol>
+    </div>
+    <div class="homepage-favourite">
+      <h3>Personal Favourites</h3>
+      <ol>
+        <li> Mauris dignissim quam id t</li>
+        <li> Mauris dignissim quam id t</li>
+        <li> Mauris dignissim quam id t</li>
+        <li> Mauris dignissim quam id t</li>
+      </ol>
+    </div>
+    </div>
+
+    <div class="homepage-break">
+      <h4>tags</h4>
+      <h4>colophon</h4>
+      <h4>guestbook</h4>
+    </div>
+  </div>
   </div>
   
   {{ end }}

@@ -1,6 +1,6 @@
 baseURL = "itsnbal.xyz"
 languageCode = "en-us"
-title = "itsnbal"
+title = "itsnbal.xyz"
 
 [permalinks]
     blog = "/:filename/"
@@ -20,7 +20,7 @@ title = "itsnbal"
     url = "/blog/"
     weight = 2
   [[menu.main]]
-    name = "Tags"
+    name = "tags"
     pre = "tag"
     url = "/tags/"
     weight = 3
