@@ -120,9 +120,9 @@ h4 {
 
 .homepage-trio {
     max-width: 100%;
-    /* display: flex;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap; */
     border-right: solid;
     border-left: solid;
     border-bottom: solid;
@@ -130,6 +130,12 @@ h4 {
     border-color: #0461cf;
     gap: 16px;
     padding: 12px;
+}
+
+@media (max-width: 800px) {
+    .homepage-trio {
+        flex-direction: column;
+    }
 }
 .homepage-trio h3{
     margin: 0;
