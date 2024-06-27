@@ -2,7 +2,7 @@
 body {
     max-width: 100%;
     margin: 0;
-    padding: 0 16px;
+    padding: 0px 16px;
     color: #101720;
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     display: flex;
@@ -120,9 +120,9 @@ h4 {
 
 .homepage-trio {
     max-width: 100%;
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-content: center;
+    flex-wrap: wrap; */
     border-right: solid;
     border-left: solid;
     border-bottom: solid;
@@ -160,7 +160,6 @@ h4 {
     justify-content: center;
     align-items: center;
 }
-
 
 .homepage-break {
     max-width: 100%;
