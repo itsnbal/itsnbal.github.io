@@ -35,9 +35,6 @@ h4 {
     max-width: 100%;
     display: flex;
     justify-content: space-around;
-    border-top: dashed;
-    border-right: dashed;
-    border-left: dashed;
     border-bottom: dashed;
     border-width: 2px;
     border-color: #456d7e;
@@ -56,8 +53,6 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-right: dashed;
-    border-left: dashed;
     border-bottom: dashed;
     border-width: 2px;
     border-color: #456d7e;
@@ -101,8 +96,6 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-right: dashed;
-    border-left: dashed;
     border-bottom: dashed;
     border-width: 2px;
     border-color: #456d7e;
@@ -150,8 +143,7 @@ h4 {
     display: flex;
     justify-content: space-around;
     align-content: center;
-    border-right: dashed;
-    border-left: dashed;
+    border-bottom: dashed;
     border-width: 2px;
     border-color: #456d7e;
 }
@@ -163,9 +155,6 @@ h4 {
     justify-content: space-evenly;
     flex-direction: row;
     align-content: center;
-    border-top: dashed;
-    border-right: dashed;
-    border-left: dashed;
     border-bottom: dashed;
     border-width: 2px;
     border-color: #456d7e; 
@@ -184,9 +173,6 @@ h4 {
     justify-content: space-between;
     align-content: center;
     border-top: dashed;
-    border-right: dashed;
-    border-left: dashed;
-    border-bottom: dashed;
     border-width: 2px;
     border-color: #456d7e;
     text-decoration: wavy underline #2b5740
@@ -201,10 +187,4 @@ h4 {
     color:#363658;
     font-weight: bold;
     text-decoration: none;
-}
-.bodyOFlist {
-    border-right: dashed;
-    border-left: dashed;
-    border-width: 2px;
-    border-color: #456d7e;
 }
