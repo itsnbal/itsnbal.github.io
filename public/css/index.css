@@ -1,9 +1,8 @@
 body {
     max-width: 100%;
     margin: 0;
-    padding: 2.5% 5%;
     color: #101720;
-    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -56,16 +55,16 @@ h4 {
     border-bottom: dashed;
     border-width: 2px;
     border-color: #456d7e;
-    padding: 12px;
+    padding: 12px 120px;
 }
     /* this is the site's title */
 .homepage-introduction h1 { /* to be used only site title */
-    font-size: 5rem;
+    font-size: 3rem;
     color:#2b5740;
     margin: 0; 
     text-decoration: wavy underline 2px #363658;
     border-right: 3px solid #000;
-    animation: cursor 1s infinite step-end, typing 15s infinite steps(9);
+    animation: cursor 1s infinite step-end, typing 15s infinite steps(11);
     white-space: nowrap;
     overflow: hidden;
 }
@@ -75,16 +74,16 @@ h4 {
 }  
   @keyframes typing{
     0%{ width: 0ch} /*Text is hidden*/
-    30%{ width: 9ch;} /*The enitre header will be typed out 1 character at a time*/
-    80%{ width: 9ch;} /*Text stays visible*/
+    30%{ width: 11ch;} /*The enitre header will be typed out 1 character at a time*/
+    80%{ width: 11ch;} /*Text stays visible*/
     90%{ width: 0ch;} /*Text is deleted*/
     100%{ width: 0ch;} /*Text stays hidden*/
 }
-@media (max-width: 800px) {
+/*@media (max-width: 800px) {
     .homepage-introduction h1 {
         font-size: 4.3rem;
     }
-}
+} */
 .homepage-introduction p {
     margin: 2px;
 }
@@ -143,9 +142,6 @@ h4 {
     display: flex;
     justify-content: space-around;
     align-content: center;
-    border-bottom: dashed;
-    border-width: 2px;
-    border-color: #456d7e;
 }
 
 /* lists !!! */
@@ -155,9 +151,10 @@ h4 {
     justify-content: space-evenly;
     flex-direction: row;
     align-content: center;
+    border-top: dashed;
     border-bottom: dashed;
     border-width: 2px;
-    border-color: #456d7e; 
+    border-color: #456d7e;
     padding: 12px;
 }
 @media (max-width: 800px) {
@@ -175,10 +172,10 @@ h4 {
     border-top: dashed;
     border-width: 2px;
     border-color: #456d7e;
-    text-decoration: wavy underline #2b5740
-;
+    text-decoration: wavy underline #2b5740;
     color:#363658;
     font-weight: bold;
+    padding: 16px;
 }
 
 /* ---- THIS IS NOW ABOUT LIST.HTML ------ */
